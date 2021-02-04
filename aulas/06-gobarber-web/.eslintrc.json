@@ -29,7 +29,7 @@
     "prettier"
   ],
   "rules": {
-    "camelcase": "off",
+    "prettier/prettier": "error",
     "react/jsx-one-expression-per-line": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
@@ -43,7 +43,6 @@
     ],
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
-    "prettier/prettier": "error",
     "import/extensions": [
       "error",
       "ignorePackages",
