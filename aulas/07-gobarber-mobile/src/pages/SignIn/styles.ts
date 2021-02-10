@@ -29,8 +29,8 @@ export const ForgotPasswordText = styled.Text`
 export const CreateAccountButton = styled.TouchableOpacity`
   position: absolute;
   left: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   background: #312e38;
   border-top-width: 1px;
   border-color: #232129;
@@ -41,9 +41,9 @@ export const CreateAccountButton = styled.TouchableOpacity`
   flex-direction: row;
 `;
 
-export const CreateAccountText = styled.Text`
+export const CreateAccountButtonText = styled.Text`
   color: #ff9000;
   font-size: 18px;
-  font-family: 'RobotoSlab-Regular';
+  font-family: 'RobotoSlad-Regular';
   margin-left: 16px;
 `;
